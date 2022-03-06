@@ -1,0 +1,77 @@
+{
+  "name": "plop-action-eslint",
+  "description": "Use ESLint to format generated code with plop.js",
+  "version": "0.0.1",
+  "author": {
+    "name": "Stefan Natter",
+    "url": "https://natterstefan.me"
+  },
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "build": "rimraf lib && tsc --noEmit false --outDir lib",
+    "lint": "tsc && eslint --cache \"./**/*.{ts,tsx}\"",
+    "prepare": "is-ci || husky install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "eslint": "^8.10.0",
+    "plop": "^3.0.5"
+  },
+  "dependencies": {
+    "tslib": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.4.1",
+    "@types/jest": "^27.4.1",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-ns-ts-base": "3.0.0",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.1.1",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.3",
+    "husky": "^7.0.0",
+    "is-ci": "^3.0.1",
+    "jest": "^27.5.1",
+    "plop": "^3.0.5",
+    "prettier": "^2.5.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "keywords": [
+    "eslint",
+    "plop-action",
+    "plop-helper",
+    "plop-pack",
+    "plop.js",
+    "plop",
+    "prettier"
+  ],
+  "bugs": {
+    "url": "https://github.com/natterstefan/plop-eslint/issues"
+  },
+  "homepage": "https://github.com/natterstefan/plop-eslint#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natterstefan/plop-eslint"
+  }
+}
