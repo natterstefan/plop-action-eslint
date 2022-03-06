@@ -29,7 +29,9 @@ module.exports = plop => {
 
 Once loaded, you have access the following actions.
 
-### `eslint`
+### Actions
+
+#### `eslint`
 
 Lints and fixes (autofix is enabled) the file of the given path with your
 projects ESLint configuration.
@@ -39,6 +41,16 @@ projects ESLint configuration.
   type: "eslint",
   path: "src/component/{{pascalCase name}}.js",
 }
+```
+
+## How to release
+
+### Manually trigger release
+
+```bash
+yarn lerna:version
+npx lerna-changelog --from <tag> --to <tag>
+git push --follow-tags
 ```
 
 ## License

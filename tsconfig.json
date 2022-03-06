@@ -2,7 +2,6 @@
   "compilerOptions": {
     "target": "es5",
     "module": "esnext",
-    "rootDir": "./src",
     "allowJs": false,
     "allowSyntheticDefaultImports": true,
     "declaration": true,
@@ -22,6 +21,5 @@
     "strict": true,
     "strictNullChecks": true
   },
-  "include": ["src"],
   "exclude": ["lib", "node_modules"]
 }

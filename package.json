@@ -2,38 +2,35 @@
   "name": "plop-action-eslint",
   "description": "Use ESLint to format generated code with plop.js",
   "version": "0.0.1",
+  "private": true,
   "author": {
     "name": "Stefan Natter",
     "url": "https://natterstefan.me"
   },
   "license": "MIT",
-  "type": "module",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
-  "files": [
-    "lib",
-    "LICENSE"
-  ],
   "engines": {
     "node": ">=14.0.0"
   },
+  "engineStrict": true,
   "scripts": {
-    "build": "rimraf lib && tsc --noEmit false --outDir lib",
+    "build": "turbo run build",
+    "lerna:publish": "lerna publish from-package",
+    "lerna:version": "HUSKY_SKIP_HOOKS=1 lerna version --no-commit-hooks --no-changelog",
     "lint": "tsc && eslint --cache \"./**/*.{ts,tsx}\"",
+    "prelerna:publish": "node ./scripts/prepublish.js",
     "prepare": "is-ci || husky install",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "turbo run test"
   },
-  "peerDependencies": {
-    "eslint": "^8.10.0",
-    "plop": "^3.0.5"
-  },
-  "dependencies": {
-    "tslib": "^2.3.1"
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
   },
   "devDependencies": {
     "@types/eslint": "^8.4.1",
     "@types/jest": "^27.4.1",
     "commitizen": "^4.2.4",
+    "copyfiles": "^2.4.1",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.10.0",
     "eslint-config-airbnb": "^19.0.4",
@@ -47,9 +44,12 @@
     "husky": "^7.0.0",
     "is-ci": "^3.0.1",
     "jest": "^27.5.1",
+    "lerna": "^4.0.0",
+    "lerna-changelog": "^2.2.0",
     "plop": "^3.0.5",
     "prettier": "^2.5.1",
     "rimraf": "^3.0.2",
+    "turbo": "^1.1.5",
     "typescript": "^4.6.2"
   },
   "config": {
@@ -57,21 +57,5 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "keywords": [
-    "eslint",
-    "plop-action",
-    "plop-helper",
-    "plop-pack",
-    "plop.js",
-    "plop",
-    "prettier"
-  ],
-  "bugs": {
-    "url": "https://github.com/natterstefan/plop-eslint/issues"
-  },
-  "homepage": "https://github.com/natterstefan/plop-eslint#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/natterstefan/plop-eslint"
-  }
+  "packageManager": "yarn@1.22.4"
 }
