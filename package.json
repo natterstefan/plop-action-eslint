@@ -57,5 +57,13 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "packageManager": "yarn@1.22.4"
+  "packageManager": "yarn@1.22.4",
+  "bugs": {
+    "url": "https://github.com/natterstefan/plop-eslint/issues"
+  },
+  "homepage": "https://github.com/natterstefan/plop-eslint#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natterstefan/plop-eslint"
+  }
 }
