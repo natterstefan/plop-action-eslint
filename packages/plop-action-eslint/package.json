@@ -19,8 +19,7 @@
   },
   "engineStrict": true,
   "scripts": {
-    "build": "rimraf lib && tsc --noEmit false --outDir lib",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rimraf lib && tsc --noEmit false --outDir lib"
   },
   "workspaces": {
     "packages": [
