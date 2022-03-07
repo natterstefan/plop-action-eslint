@@ -3,8 +3,16 @@
 [![npm version](https://badge.fury.io/js/plop-action-eslint.svg)](https://badge.fury.io/js/plop-action-eslint)
 [![GitHub license](https://img.shields.io/github/license/natterstefan/plop-action-eslint.svg)](https://github.com/natterstefan/plop-action-eslint/blob/main/LICENSE)
 
-A [PlopJS](https://github.com/plopjs/plop) action to lint files with
-[ESLint](https://eslint.org/).
+A [Plop](https://github.com/plopjs/plop) action to lint files with
+[ESLint](https://eslint.org/) and automatically format with
+[Prettier](#prettier-support).
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Actions](#actions)
+- [Prettier Support](#prettier-support)
 
 ## Installation
 
@@ -43,6 +51,12 @@ projects ESLint configuration.
 }
 ```
 
+## Prettier Support
+
+In order to automatically format your code with Prettier as well, you have to
+use [eslint-config-prettier][1] and [eslint-plugin-prettier][2] in your ESLint
+configuration.
+
 ## How to release
 
 ### Manually trigger release
@@ -62,3 +76,6 @@ git push --follow-tags
 This plop action is based on the code that was shared in
 [plop#80](https://github.com/plopjs/plop/issues/80#issuecomment-645179250) by
 [FDiskas](https://github.com/FDiskas).
+
+[1]: https://github.com/prettier/eslint-config-prettier
+[2]: https://github.com/prettier/eslint-plugin-prettier
