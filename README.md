@@ -74,9 +74,19 @@ configuration.
 ### Manually trigger release
 
 ```bash
+# generate a new tag
 yarn lerna:version
+
+# generate a new Changelog entry
 npx lerna-changelog --from <tag> --to <tag>
+# add the result manually to CHANGELOG.md and commit it
+git add CHANGELOG.md
+git commit -m "chore: prepared release changelog"
+
+# push the tags
 git push --follow-tags
+
+# publish the new version
 yarn lerna:publish
 ```
 
