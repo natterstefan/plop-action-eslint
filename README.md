@@ -53,15 +53,15 @@ projects ESLint configuration.
 
 You can also pass an array of paths.
 
-  ```javascript
-  {
+```javascript
+{
   type: "eslint",
   path: [
-      "src/component/{{pascalCase name}}.js",
-      "src/component/{{pascalCase name}}.test.js",
-    ],
-  }
-  ```
+    "src/component/{{pascalCase name}}.js",
+    "src/component/{{pascalCase name}}.test.js",
+  ],
+}
+```
 
 ## Prettier Support
 
