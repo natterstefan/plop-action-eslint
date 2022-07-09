@@ -51,6 +51,18 @@ projects ESLint configuration.
 }
 ```
 
+You can also pass an array of paths.
+
+```javascript
+{
+  type: "eslint",
+  path: [
+    "src/component/{{pascalCase name}}.js",
+    "src/component/{{pascalCase name}}.test.js",
+  ],
+}
+```
+
 ## Prettier Support
 
 In order to automatically format your code with Prettier as well, you have to

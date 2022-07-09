@@ -13,10 +13,15 @@ const eslintAction: CustomActionFunction = async (
   plopInstance,
 ) => {
   if (config && config.path && plopInstance) {
-    const filePath = plopInstance.renderString(config.path, answers)
+    const stringsToRender = Array.isArray(config.path)
+      ? config.path
+      : [config.path]
+    const filePaths = stringsToRender.map(path =>
+      plopInstance.renderString(path, answers),
+    )
 
     const eslint = new ESLint({ fix: true })
-    const results = await eslint.lintFiles(filePath)
+    const results = await eslint.lintFiles(filePaths)
 
     await ESLint.outputFixes(results)
 
