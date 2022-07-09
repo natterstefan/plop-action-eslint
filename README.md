@@ -94,6 +94,31 @@ yarn lerna:publish
 
 [MIT](./LICENSE)
 
+## Contributors ✨
+
+Thanks goes to these wonderful people
+([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://natterstefan.me/"><img src="https://avatars.githubusercontent.com/u/1043668?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stefan Natter</b></sub></a><br /><a href="https://github.com/natterstefan/plop-action-eslint/commits?author=natterstefan" title="Code">💻</a></td>
+    <td align="center"><a href="https://vytenis.kuciauskas.lt/"><img src="https://avatars.githubusercontent.com/u/468006?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vytenis</b></sub></a><br /><a href="https://github.com/natterstefan/plop-action-eslint/commits?author=FDiskas" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/iholovin"><img src="https://avatars.githubusercontent.com/u/95911872?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ivan Holovin</b></sub></a><br /><a href="https://github.com/natterstefan/plop-action-eslint/commits?author=iholovin" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the
+[all-contributors](https://github.com/all-contributors/all-contributors)
+specification. Contributions of any kind welcome!
+
 ## Credits
 
 This plop action is based on the code that was shared in
