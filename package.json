@@ -1,7 +1,6 @@
 {
   "name": "plop-action-eslint",
   "description": "Use ESLint to format generated code with plop.js",
-  "version": "0.0.1",
   "private": true,
   "author": {
     "name": "Stefan Natter",
@@ -9,13 +8,13 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=14.0.0"
+    "node": "^14.13.1 || ^16.x"
   },
   "engineStrict": true,
   "scripts": {
     "build": "turbo run build",
     "lerna:publish": "lerna publish from-package",
-    "lerna:version": "HUSKY_SKIP_HOOKS=1 lerna version --no-commit-hooks --no-changelog",
+    "lerna:version": "HUSKY_SKIP_HOOKS=1 lerna version --no-commit-hooks --no-changelog  --no-private",
     "lint": "tsc && eslint --cache \"./**/*.{ts,tsx}\"",
     "prelerna:publish": "node ./scripts/prepublish.js",
     "prepare": "is-ci || husky install",
@@ -27,31 +26,31 @@
     ]
   },
   "devDependencies": {
-    "@types/eslint": "^8.4.1",
+    "@types/eslint": "^8.4.5",
     "@types/jest": "^27.4.1",
     "all-contributors-cli": "^6.20.0",
     "commitizen": "^4.2.4",
     "copyfiles": "^2.4.1",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.10.0",
+    "eslint": "^8.19.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-ns-ts-base": "3.0.0",
-    "eslint-config-prettier": "^8.4.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jest": "^26.1.1",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.29.3",
-    "husky": "^7.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.5.3",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.30.1",
+    "husky": "^8.0.1",
     "is-ci": "^3.0.1",
     "jest": "^27.5.1",
-    "lerna": "^4.0.0",
+    "lerna": "^5.1.8",
     "lerna-changelog": "^2.2.0",
-    "plop": "^3.0.5",
-    "prettier": "^2.5.1",
+    "plop": "^3.1.1",
+    "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
-    "turbo": "^1.1.5",
-    "typescript": "^4.6.2"
+    "turbo": "^1.3.1",
+    "typescript": "^4.7.4"
   },
   "config": {
     "commitizen": {
