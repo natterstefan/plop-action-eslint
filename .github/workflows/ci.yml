@@ -32,3 +32,4 @@ jobs:
             yarn --prefer-offline --frozen-lockfile --no-progress --silent
 
       - run: yarn lint
+      - run: yarn test

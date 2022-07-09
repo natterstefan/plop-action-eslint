@@ -18,7 +18,7 @@
     "lint": "tsc && eslint --cache \"./**/*.{ts,tsx}\"",
     "prelerna:publish": "node ./scripts/prepublish.js",
     "prepare": "is-ci || husky install",
-    "test": "turbo run test"
+    "test": "turbo run test --include-dependencies"
   },
   "workspaces": {
     "packages": [
