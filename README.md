@@ -77,6 +77,7 @@ configuration.
 yarn lerna:version
 npx lerna-changelog --from <tag> --to <tag>
 git push --follow-tags
+yarn lerna:publish
 ```
 
 ## License
