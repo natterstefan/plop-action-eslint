@@ -110,5 +110,6 @@ esm
 
 # monorepo
 + .turbo
+packages/*/CHANGELOG.md
 packages/*/LICENSE
 packages/*/README.md
