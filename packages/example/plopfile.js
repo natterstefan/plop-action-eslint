@@ -1,8 +1,8 @@
-module.exports = (
+module.exports = async (
   /** @type {import('plop').NodePlopAPI} */
   plop,
 ) => {
-  plop.load('plop-action-eslint')
+  await plop.load('plop-action-eslint')
 
   plop.setGenerator('Template', {
     description: 'Use Template',
