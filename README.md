@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/plop-action-eslint.svg)](https://badge.fury.io/js/plop-action-eslint)
 [![GitHub license](https://img.shields.io/github/license/natterstefan/plop-action-eslint.svg)](https://github.com/natterstefan/plop-action-eslint/blob/main/LICENSE)
+[![Node CI](https://github.com/natterstefan/plop-action-eslint/actions/workflows/ci.yml/badge.svg)](https://github.com/natterstefan/plop-action-eslint/actions/workflows/ci.yml)
 
 A [Plop](https://github.com/plopjs/plop) action to lint files with
 [ESLint](https://eslint.org/) and automatically format with
