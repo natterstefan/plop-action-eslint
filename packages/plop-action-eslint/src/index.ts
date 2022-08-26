@@ -12,23 +12,27 @@ const eslintAction: CustomActionFunction = async (
   config,
   plopInstance,
 ) => {
-  if (config && config.path && plopInstance) {
-    const stringsToRender = Array.isArray(config.path)
-      ? config.path
-      : [config.path]
-    const filePaths = stringsToRender.map(path =>
-      plopInstance.renderString(path, answers),
-    )
+  try {
+    if (config && config.path && plopInstance) {
+      const stringsToRender = Array.isArray(config.path)
+        ? config.path
+        : [config.path]
+      const filePaths = stringsToRender.map(path =>
+        plopInstance.renderString(path, answers),
+      )
 
-    const eslint = new ESLint({ fix: true })
-    const results = await eslint.lintFiles(filePaths)
+      const eslint = new ESLint({ fix: true })
+      const results = await eslint.lintFiles(filePaths)
 
-    await ESLint.outputFixes(results)
+      await ESLint.outputFixes(results)
 
-    return 'code formatted'
+      return 'Code formatted'
+    }
+  } catch (_) {
+    return 'Formatting failed'
   }
 
-  throw new Error('Formatting skipped')
+  return 'Formatting skipped'
 }
 
 export default (plop: NodePlopAPI) => {

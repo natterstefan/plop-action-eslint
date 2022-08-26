@@ -1,0 +1,21 @@
+{
+  "name": "example-plop-action-eslint",
+  "description": "Use ESLint to format generated code with plop.js",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Stefan Natter",
+    "url": "https://natterstefan.me"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "^14.13.1 || ^16.x"
+  },
+  "engineStrict": true,
+  "scripts": {
+    "test": "rimraf lib && plop Template \"Test\" && node ./__tests__/validate.test.js"
+  },
+  "dependencies": {
+    "plop-action-eslint": "^0.1.0"
+  }
+}
