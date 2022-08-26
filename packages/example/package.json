@@ -13,7 +13,7 @@
   },
   "engineStrict": true,
   "scripts": {
-    "test": "rimraf lib && plop Template \"Test\""
+    "test": "rimraf lib && plop Template \"Test\" && node ./__tests__/validate.test.js"
   },
   "dependencies": {
     "plop-action-eslint": "^0.1.0"
