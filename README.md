@@ -82,7 +82,7 @@ yarn lerna:version
 npx lerna-changelog --from <tag> --to <tag>
 # add the result manually to CHANGELOG.md and commit it
 git add CHANGELOG.md
-git commit -m "chore: prepared release changelog"
+git commit -m "chore: prepared release"
 
 # push the tags
 git push --tags
