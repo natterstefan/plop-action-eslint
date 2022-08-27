@@ -31,8 +31,8 @@ object by adding the folling to your `plopfile.js`:
 
 ```javascript
 // plopfile.js
-module.exports = plop => {
-  plop.load('plop-action-eslint')
+module.exports = async plop => {
+  await plop.load('plop-action-eslint')
 }
 ```
 
