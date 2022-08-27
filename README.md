@@ -85,7 +85,7 @@ git add CHANGELOG.md
 git commit -m "chore: prepared release changelog"
 
 # push the tags
-git push --follow-tags
+git push --tags
 
 # publish the new version
 yarn lerna:publish
