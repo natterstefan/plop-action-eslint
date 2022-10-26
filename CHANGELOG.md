@@ -4,6 +4,19 @@ All notable changes to this project will be documented here. The format is based
 on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project
 adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## v0.4.0 (2022-10-26)
+
+#### :rocket: New Feature
+
+- `example`, `plop-action-eslint`
+  - [#6](https://github.com/natterstefan/plop-action-eslint/pull/6) feat: added
+    node 18 to engines settings and removed enginesStrict
+    ([@natterstefan](https://github.com/natterstefan))
+
+#### Committers: 1
+
+- Stefan Natter ([@natterstefan](https://github.com/natterstefan))
+
 ## v0.3.0 (2022-08-27)
 
 #### :rocket: New Feature
