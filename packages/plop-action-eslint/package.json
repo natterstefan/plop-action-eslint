@@ -15,9 +15,8 @@
     "LICENSE"
   ],
   "engines": {
-    "node": "^14.13.1 || ^16.x"
+    "node": "^14.13.1 || ^16.x || ^18.x"
   },
-  "engineStrict": true,
   "scripts": {
     "build": "rimraf lib && tsc --noEmit false --outDir lib"
   },

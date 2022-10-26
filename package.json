@@ -8,9 +8,8 @@
   },
   "license": "MIT",
   "engines": {
-    "node": "^14.13.1 || ^16.x"
+    "node": "^14.13.1 || ^16.x || ^18.x"
   },
-  "engineStrict": true,
   "scripts": {
     "build": "turbo run build",
     "lerna:publish": "lerna publish from-package",
