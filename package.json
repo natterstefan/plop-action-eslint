@@ -14,7 +14,7 @@
     "build": "turbo run build",
     "lerna:publish": "lerna publish from-package",
     "lerna:version": "HUSKY_SKIP_HOOKS=1 lerna version --no-commit-hooks --no-changelog  --no-private",
-    "lint": "tsc && eslint --cache \"./**/*.{ts,tsx}\"",
+    "lint": "tsc && eslint \"./**/*.{ts,tsx}\"",
     "prelerna:publish": "node ./scripts/prepublish.js && yarn build",
     "prepare": "is-ci || husky install",
     "test": "turbo run test"
