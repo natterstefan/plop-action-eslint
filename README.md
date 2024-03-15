@@ -104,11 +104,14 @@ Thanks goes to these wonderful people
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
-  <tr>
-    <td align="center"><a href="https://natterstefan.me/"><img src="https://avatars.githubusercontent.com/u/1043668?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stefan Natter</b></sub></a><br /><a href="https://github.com/natterstefan/plop-action-eslint/commits?author=natterstefan" title="Code">💻</a></td>
-    <td align="center"><a href="https://vytenis.kuciauskas.lt/"><img src="https://avatars.githubusercontent.com/u/468006?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vytenis</b></sub></a><br /><a href="https://github.com/natterstefan/plop-action-eslint/commits?author=FDiskas" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/iholovin"><img src="https://avatars.githubusercontent.com/u/95911872?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ivan Holovin</b></sub></a><br /><a href="https://github.com/natterstefan/plop-action-eslint/commits?author=iholovin" title="Code">💻</a></td>
-  </tr>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://natterstefan.me/"><img src="https://avatars.githubusercontent.com/u/1043668?v=4?s=100" width="100px;" alt="Stefan Natter"/><br /><sub><b>Stefan Natter</b></sub></a><br /><a href="https://github.com/natterstefan/plop-action-eslint/commits?author=natterstefan" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://vytenis.kuciauskas.lt/"><img src="https://avatars.githubusercontent.com/u/468006?v=4?s=100" width="100px;" alt="Vytenis"/><br /><sub><b>Vytenis</b></sub></a><br /><a href="https://github.com/natterstefan/plop-action-eslint/commits?author=FDiskas" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/iholovin"><img src="https://avatars.githubusercontent.com/u/95911872?v=4?s=100" width="100px;" alt="Ivan Holovin"/><br /><sub><b>Ivan Holovin</b></sub></a><br /><a href="https://github.com/natterstefan/plop-action-eslint/commits?author=iholovin" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/buggedcom"><img src="https://avatars.githubusercontent.com/u/2810?v=4?s=100" width="100px;" alt="Oliver Lillie"/><br /><sub><b>Oliver Lillie</b></sub></a><br /><a href="https://github.com/natterstefan/plop-action-eslint/commits?author=buggedcom" title="Code">💻</a></td>
+    </tr>
+  </tbody>
 </table>
 
 <!-- markdownlint-restore -->

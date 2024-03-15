@@ -3,9 +3,7 @@
   "projectOwner": "natterstefan",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "files": [
-    "README.md"
-  ],
+  "files": ["README.md"],
   "imageSize": 100,
   "commit": false,
   "commitConvention": "eslint",
@@ -15,28 +13,30 @@
       "name": "Stefan Natter",
       "avatar_url": "https://avatars.githubusercontent.com/u/1043668?v=4",
       "profile": "https://natterstefan.me/",
-      "contributions": [
-        "code"
-      ]
+      "contributions": ["code"]
     },
     {
       "login": "FDiskas",
       "name": "Vytenis",
       "avatar_url": "https://avatars.githubusercontent.com/u/468006?v=4",
       "profile": "https://vytenis.kuciauskas.lt/",
-      "contributions": [
-        "code"
-      ]
+      "contributions": ["code"]
     },
     {
       "login": "iholovin",
       "name": "Ivan Holovin",
       "avatar_url": "https://avatars.githubusercontent.com/u/95911872?v=4",
       "profile": "https://github.com/iholovin",
-      "contributions": [
-        "code"
-      ]
+      "contributions": ["code"]
+    },
+    {
+      "login": "buggedcom",
+      "name": "Oliver Lillie",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2810?v=4",
+      "profile": "https://github.com/buggedcom",
+      "contributions": ["code"]
     }
   ],
   "contributorsPerLine": 7
 }
+
