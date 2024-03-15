@@ -19,5 +19,5 @@
     }
   },
   "ignoreChanges": ["*.md", "*.txt", "__test__/**", "**/__tests__/**"],
-  "version": "0.4.0"
+  "version": "1.0.0"
 }
