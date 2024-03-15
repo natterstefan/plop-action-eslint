@@ -4,6 +4,24 @@ All notable changes to this project will be documented here. The format is based
 on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project
 adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## v1.0.0 (2024-03-15)
+
+#### :rocket: New Feature
+
+- `example`, `plop-action-eslint`
+  - [#8](https://github.com/natterstefan/plop-action-eslint/pull/8) feat:
+    require min node version 18, and updated (dev)Dependencies
+    ([@natterstefan](https://github.com/natterstefan))
+- Other
+  - [#7](https://github.com/natterstefan/plop-action-eslint/pull/7) feat: update
+    package.json to include node 19/20 engines
+    ([@buggedcom](https://github.com/buggedcom))
+
+#### Committers: 2
+
+- Oliver Lillie ([@buggedcom](https://github.com/buggedcom))
+- Stefan Natter ([@natterstefan](https://github.com/natterstefan))
+
 ## v0.4.0 (2022-10-26)
 
 #### :rocket: New Feature
