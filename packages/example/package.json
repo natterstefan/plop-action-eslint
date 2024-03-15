@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": "^14.13.1 || ^16.x || ^18.x"
+    "node": ">=18"
   },
   "scripts": {
     "test": "rimraf lib && plop Template \"Test\" && node ./__tests__/validate.test.js"
