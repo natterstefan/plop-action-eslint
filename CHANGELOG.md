@@ -4,6 +4,19 @@ All notable changes to this project will be documented here. The format is based
 on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project
 adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## v1.1.0 (2024-07-17)
+
+#### :rocket: New Feature
+
+- `plop-action-eslint`
+  - [#10](https://github.com/natterstefan/plop-action-eslint/pull/10) chore:
+    extend plop peerDependency to allow v4
+    ([@lesleh](https://github.com/lesleh))
+
+#### Committers: 1
+
+- Leslie Hoare ([@lesleh](https://github.com/lesleh))
+
 ## v1.0.0 (2024-03-15)
 
 #### :rocket: New Feature
